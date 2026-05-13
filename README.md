@@ -21,7 +21,7 @@ La ejecución del proyecto fue un esfuerzo colaborativo con las siguientes respo
 * **Conceptualización de Características**: Desarrollo conjunto por todo el equipo.
 
 ### Otros Componentes
-* **Desarrollo del Dashboard (app.py) y Documentación**: Gustavo Salazar.
+* **Desarrollo del Dashboard (app.py), Documentación y Glovo.ipynb**: Gustavo Salazar.
 
 ## Tecnologías Utilizadas
 
