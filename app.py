@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 from flask import Flask, render_template_string, send_file
 
-CSV = "/Users/gsv/Documents/UPF/Reto IA/glovo_ops_data_final.csv"
+CSV = "glovo_ops_data_final.csv"
 app = Flask(__name__)
 
 TRANSPORT_COLORS = {"MOTORBIKE": "#FFC244", "BICYCLE": "#374151", "CAR": "#6B7280", "WALKER": "#D1D5DB"}
@@ -59,7 +59,7 @@ def ch(fig, height=300, title=None):
 # ---------------------------------------------------------------------------
 @app.route("/glovo_icon.png")
 def icon():
-    return send_file("/Users/gsv/Documents/UPF/Reto IA/glovo_icon.png")
+    return send_file("glovo_icon.png")
 
 
 @app.route("/")
