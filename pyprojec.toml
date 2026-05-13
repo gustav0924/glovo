@@ -1,0 +1,9 @@
+[project]
+name = "glovoapp"
+version = "0.1.0"
+dependencies = [
+    "pandas>=2.0.0",
+    "plotly>=5.10.0",
+    "flask>=3.0.0",
+    "gunicorn>=21.0.0",
+]
